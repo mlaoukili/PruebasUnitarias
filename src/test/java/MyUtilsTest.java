@@ -11,7 +11,7 @@ public class MyUtilsTest {
 
     @Test
     void testEsTraspas() {
-        assertTrue(MyUtils.esTraspas(2022));
+        assertTrue(MyUtils.esTraspas(2020));
         assertFalse(MyUtils.esTraspas(2019));
         assertTrue(MyUtils.esTraspas(2000));
         assertFalse(MyUtils.esTraspas(1900));
